@@ -64,6 +64,7 @@ class UserListComponent extends Component {
 
   render() {
     return (
+      
       <div>
         <Typography variant="h4" style={style}>
           User List
@@ -78,7 +79,6 @@ class UserListComponent extends Component {
               <TableCell>ID</TableCell>
               <TableCell align="right">pw</TableCell>
               <TableCell align="right">name</TableCell>
-              <TableCell align="right">UserName</TableCell>
               <TableCell align="right">donate</TableCell>
               <TableCell align="right">borrow1</TableCell>
               <TableCell align="right">Edit</TableCell>
